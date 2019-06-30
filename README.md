@@ -10,6 +10,7 @@ Use this one at your own risk!
 
 Tags:
 
+* `252.0.0` - gcloud `252.0.0`; helm `2.14.1`; kubectl `1.15.0`;
 * `241.0.0` - gcloud `241.0.0`; helm `2.13.1`; kubectl `1.14.0`;
 
 
