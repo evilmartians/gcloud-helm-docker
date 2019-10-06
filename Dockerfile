@@ -1,15 +1,15 @@
-FROM docker:18.09.7 as static-docker-source
+FROM docker:18.09.9 as static-docker-source
 
-FROM google/cloud-sdk:252.0.0-alpine
+FROM google/cloud-sdk:265.0.0-alpine
 
 # Metadata
 LABEL maintainer="Evil Martians <admin@evilmartians.com>"
 
-ARG KUBE_LATEST_VERSION="v1.15.0"
-ARG KUBECTL_SHA256="ecec7fe4ffa03018ff00f14e228442af5c2284e57771e4916b977c20ba4e5b39"
+ARG KUBE_LATEST_VERSION="v1.16.1"
+ARG KUBECTL_SHA256="69cfb3eeaa0b77cc4923428855acdfc9ca9786544eeaff9c21913be830869d29"
 
-ARG HELM_VERSION="v2.14.1"
-ARG HELM_SHA256="804f745e6884435ef1343f4de8940f9db64f935cd9a55ad3d9153d064b7f5896"
+ARG HELM_VERSION="v2.14.3"
+ARG HELM_SHA256="38614a665859c0f01c9c1d84fa9a5027364f936814d1e47839b05327e400bf55"
 ARG HELM_ARCHIVE="helm-${HELM_VERSION}-linux-amd64.tar.gz"
 
 COPY --from=static-docker-source /usr/local/bin/docker /usr/local/bin/docker

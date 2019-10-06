@@ -10,6 +10,7 @@ Use this one at your own risk!
 
 Tags:
 
+* `265.0.0` - gcloud `265.0.0`; helm `2.14.3`; kubectl `1.16.1`;
 * `252.0.0` - gcloud `252.0.0`; helm `2.14.1`; kubectl `1.15.0`;
 * `241.0.0` - gcloud `241.0.0`; helm `2.13.1`; kubectl `1.14.0`;
 
@@ -17,5 +18,5 @@ Tags:
 ## Docker pull
 
 ```shell
-docker pull quay.io/evl.ms/gcloud-helm:241.0.0
+docker pull quay.io/evl.ms/gcloud-helm:265.0.0
 ```
