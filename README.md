@@ -9,6 +9,7 @@ Use this one at your own risk!
 ## Details
 
 Tags:
+* `288.0.0` - gcloud `288.0.0`; kubectl `1.17.4`;
 * `285.0.1` - gcloud `285.0.1`; helm `3.1.2`; kubectl `1.16.7`;
 * `282.0.0` - gcloud `282.0.0`; helm `3.1.1`; kubectl `1.16.7`;
 * `274.0.0` - gcloud `274.0.0`; helm `3.0.2`; kubectl `1.16.4`;

@@ -1,12 +1,12 @@
 FROM docker:19.03.8 as static-docker-source
 
-FROM google/cloud-sdk:285.0.1-alpine
+FROM google/cloud-sdk:288.0.0-alpine
 
 # Metadata
 LABEL maintainer="Evil Martians <admin@evilmartians.com>"
 
-ARG KUBE_LATEST_VERSION="v1.16.7"
-ARG KUBECTL_SHA256="c31ca51b526489cd929be71fc1dc9c3cc24b6df5641b3505b467bac51862047d"
+ARG KUBE_LATEST_VERSION="v1.17.4"
+ARG KUBECTL_SHA256="465b2d2bd7512b173860c6907d8127ee76a19a385aa7865608e57a5eebe23597"
 
 ARG HELM_VERSION="v3.1.2"
 ARG HELM_SHA256="e6be589df85076108c33e12e60cfb85dcd82c5d756a6f6ebc8de0ee505c9fd4c"
